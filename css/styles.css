@@ -1,17 +1,46 @@
+/* o list-style-position: inside; deixa os marcadores dentro do elemento, alinhados com o texto.  */
 
 
 html {
+    background-color: black;
+    background-image: url("wallhaven-131mj3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    list-style-position: inside;
 }
 
 h3 {
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-    
-
-
-
 }
+
+nav ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: fit-content;
+
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background-color: rgba(170, 26, 26, 0.342);
+    border-radius: 8px;
+}
+
+
